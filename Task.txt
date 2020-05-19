@@ -1,0 +1,21 @@
+1)==>-The main differance between function declaration and expression is the function name,which not 
+      used in function expression to create anonymous function.
+     -Function expression do not Hoisted like function declaration.
+     -if you try to run function before you have expressed it,you will get error.
+For example :-  
+                function add(a,b){      //this is a function defination  
+                console.log(a+b);
+                }
+
+                var add=function (a,b){   //this is a function expression
+                    console.log(a+b);
+                }
+
+2)==> -First class citizen means they can be:
+        i)   stored in a varialbe,object or array.
+        ii)  passed as an argument to function.
+        iii) returned from function.
+      -Function is first class citizen in js.
+      -we can create function that can accept function,retrun function and assign a function.
+      -For example:- var newvar=function (){...};
+                     var obj={doSomthin : function (){....}};
