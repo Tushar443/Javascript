@@ -1,1 +1,1 @@
-Welcome to my First programe.
+text is Override by write Function
