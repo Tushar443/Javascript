@@ -1,0 +1,18 @@
+Question 1:-
+=>  -the javascript this keyword refers to the object it belongs to.
+    -it has diff values depending on where it is used.
+        -In method,this refers to the owner object.
+        -Alone,this refers to global object.
+        -In a function ,this refers to the global objects.
+        -In a function,in strict mode,this is undefined. 
+        -In an event,this refers to the element that received the event.
+        -Methods like call () and apply() can refers this to any objects.  
+
+
+Question 2:-
+=> -All javascript objects inherit peoperties and methods from a prototype.
+   -Date objects inherit from Date.prototype
+   -Array objects inherit from Array.prototype
+   -Person objects inherit from Person.prototype
+   -Above all objects are inherit from object.prototype.
+   -object.prototype is on the top of the prototype inheritance chain.

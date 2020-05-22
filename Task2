@@ -1,0 +1,27 @@
+ 1) Higher order function is a function that can take another function as a argument
+	or that returns the function as result.
+	For Example:- function test(){
+					return function test2(){
+					}
+				  };
+			      function test3(){};
+			      test(test3);
+			
+ 2) IIFE stands for immediately Invoked Function Expression and that runs as soon as it is defined
+	it is design pattern which is also known as a self-Executing Anonymous Function and contains 
+	two major parts.
+	i)  The first is anonymous function with lexical scope enclosed within the grouping 
+	    operator().
+	ii) Second part creates the immediately invoked function expression () through which javascript
+		engine will directly interpret the function.
+	For example:- (function (){
+					console.log('Hello'); //it will invoked itself.
+				  })();
+				  
+ 3) Fat arrow functions are more concise syntax for writing function expression.
+	They utilize a new token =>,that looks like a fat arrow.
+	Arrow functions are anonymous and change the way this binds in function.
+		For example :- var add=(x,y)=>{
+							console.log(x+y);
+						};
+						
