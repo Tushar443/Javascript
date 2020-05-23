@@ -1,0 +1,79 @@
+body
+{
+	background-image:url("Regis.jpg");
+}
+#t1
+{
+	position:fixed;
+	left:32%;
+	background:red;
+	color:white;
+	font-size:50px;
+}
+#LoginBox
+{
+	width:350px;
+	height:560px;
+	position:fixed;
+	top:15%;
+	left:35%;
+	bottom:25%;
+	box-sizing:border-box;
+	color:white;
+	background:rgba(0, 0, 0, 0.705);
+	border-radius:10px;
+	text-shadow:2px 4px 5px black;
+}
+#LoginBox #f1 h1
+{
+	text-align:center;
+}
+#LoginBox #f1 p
+{
+	font-weight:bold;
+	margin-left:20px;
+}
+#LoginBox #f1 input
+{
+	width:300px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+#LoginBox #f1 input[type="text"],input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+#LoginBox #f1 input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:yellow;
+	color:red;
+	font-size:18px;
+	border-radius:20px;
+}
+#LoginBox #f1 input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:green;
+}
+#LoginBox #f1 a
+{
+	position:absolute;
+	left:20px;
+	text-decoration:none;
+	font-size:20px;
+	color:darkgrey;
+}
+#LoginBox #f1 a:hover
+{
+	color:orange;
+	
+}
