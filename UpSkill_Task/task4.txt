@@ -1,0 +1,25 @@
+Q-1==>  JSON stands for JavaScript Object Notation.
+        JSON is lightweight format for storing and transporting data.
+        JSON is often used when data is sent from a server to a web page.
+        JSON is "self-describing" and easy to understand.
+
+        Sending Data :- If you have data in a javascript object,you can convert the object
+                        into JSON,and send it to a server.
+                        For example :- var example={name : "Tushar",age : 23,city: satara};
+                                        var myFile=JSON.stringify(example);
+                                        
+        Receiving Data :- If you receive data in JSON format,you can convert it into a javascript object.
+                        For example:- var example ='{"name" : "Tushar","age" : 23,"city": "satara"}';
+                        var myFile =JSON.parse(example);
+
+Q-2==>  A Constructor is a function that initialize an object.
+        In javascript,there is special constructor function known as Object() is used to create and initialize
+        an object.The return value of the Object() constructor is assigned to a variable.
+        For Example :- function ABC(x,y){
+                            this.m=x;
+                            this.n=y;
+                         }
+                         var Obj = new ABC("Tushar","More");
+
+Q-3==>  Using global object methods we can convert primitive values into non-primitive and vice-versa. 
+
