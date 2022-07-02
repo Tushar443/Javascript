@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfScript:Internal Script</title>
+    <script src="DataTypes.js">
+     
+    </script>
+<script> console.log('inline javascript')</script>
+    <button onclick="alert('Welcome to 30 Days Of JavaScript!');">Alert</button>
+    <button onclick= callPrompt()>Prompt Me</button>
+    <button onclick="confirm('Are you sure you want to close');">Confirm me </button>
+  </head>
+  <body>
+
+    <script id="xyz">
+       function callPrompt(){
+        let num = prompt('Enter the number' ,'numer here ')
+        console.log(num)
+       }
+    </script>
+  </body>
+</html>
